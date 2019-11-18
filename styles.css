@@ -6,9 +6,41 @@
 
 body {
     padding: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3f3f3e;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    word-spacing: 5rem;
+    letter-spacing: -0.1rem;
+    text-align: center;
 }
 
 blockquote {
+    line-height: 1.5em;
     margin: 0 0 0 30px;
+    font-style: italic;
+}
+
+span {
+    text-decoration-line: line-through;
+}
+
+em p::first-letter {
+    text-transform: uppercase;
+}
+
+strong {
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
