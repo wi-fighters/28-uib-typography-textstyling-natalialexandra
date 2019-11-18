@@ -35,8 +35,8 @@ span {
     text-decoration-line: line-through;
 }
 
-em p::first-letter {
-    text-transform: uppercase;
+em {
+    text-transform: capitalize;
 }
 
 strong {
